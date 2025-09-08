@@ -1,0 +1,101 @@
+{
+  "editor.formatOnSave": true,
+  "editor.suggest.insertMode": "replace",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0.5,
+  "window.title": " ",
+  "launch": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.lineNumbers": "relative",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.commandCenter.enabled": false,
+  "workbench.activityBar.location": "top",
+  "biome.suggestInstallingGlobally": false,
+  "editor.scrollBeyondLastLine": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "fonted.font": "FiraCode Nerd Font",
+  "editor.suggest.showStatusBar": true,
+
+  "biome.lsp.bin": "C:/Users/ASUS/AppData/Roaming/npm/node_modules/@biomejs/biome/node_modules/@biomejs/cli-win32-x64/biome.exe",
+  "explorer.compactFolders": false,
+  "workbench.startupEditor": "none",
+  "chat.agent.enabled": false,
+  "chat.notifyWindowOnConfirmation": false,
+  "editor.wordWrap": "on",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "telemetry.feedback.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.stickyScroll.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "telemetry.editStats.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
+  },
+  "rapidapi.terminalLink.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block-outline",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "multiple",
+  "window.density.editorTabHeight": "compact",
+  "auto-run-command.rules": [
+    {
+      "condition": "always",
+      "command": "fonted.enable",
+      "message": "Running Fonted Enable on startup"
+    }
+  ],
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/storage": true,
+    "**/.git": true,
+    "**/public/build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/storage": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/vendor/**": true,
+    "**/storage/**": true
+  }
+}
