@@ -1,0 +1,177 @@
+{
+    "edit_predictions": {
+        "enabled_in_text_threads": false
+    },
+    "show_edit_predictions": false,
+    "git_panel": {
+        "sort_by_path": false,
+        "collapse_untracked_diff": false,
+        "scrollbar": {
+            "show": "auto"
+        }
+    },
+    "file_finder": {
+        "modal_max_width": "large"
+    },
+    "tab_size": 4,
+    "hard_tabs": false,
+    "git": {
+        "inline_blame": {
+            "show_commit_summary": true
+        }
+    },
+    "terminal": {
+        "button": true
+    },
+    "debugger": {
+        "button": true
+    },
+    "status_bar": {
+        "active_language_button": true
+    },
+    "zoomed_padding": true,
+    "bottom_dock_layout": "full",
+    "title_bar": {
+        "show_menus": false,
+        "show_project_items": true,
+        "show_onboarding_banner": true,
+        "show_branch_icon": true
+    },
+    "relative_line_numbers": "enabled",
+    "ui_font_family": "JetBrainsMono Nerd Font",
+    "toolbar": {
+        "breadcrumbs": true
+    },
+    "lsp": {
+        "phpactor": {
+            "binary": {
+                "path": "php",
+                "arguments": [
+                    "C:\\Users\\ASUS\\AppData\\Local\\Zed\\extensions\\work\\blade\\phpactor-2025.10.17.0\\phpactor.phar",
+                    "language-server"
+                ]
+            }
+        },
+        "oxc": {
+            "initialization_options": {
+                "options": {
+                    "run": "onType",
+                    "configPath": null,
+                    "tsConfigPath": null,
+                    "unusedDisableDirectives": "allow",
+                    "typeAware": false,
+                    "flags": {}
+                }
+            }
+        }
+    },
+    "tabs": {
+        "git_status": true,
+        "file_icons": true
+    },
+    "ui_font_features": { "enabled": true },
+    "tab_bar": {
+        "show_nav_history_buttons": true,
+        "show": true
+    },
+    "languages": {
+        "PHP": {
+            "language_servers": ["intelephense", "!phpactor", "..."]
+        },
+        "JavaScript": {
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            },
+            "format_on_save": "on"
+        },
+        "TypeScript": {
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            },
+            "format_on_save": "on"
+        },
+        "TSX": {
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            },
+            "format_on_save": "on"
+        },
+        "Vue.js": {
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            },
+            "format_on_save": "on"
+        }
+    },
+    "agent": {
+        "expand_terminal_card": false,
+        "expand_edit_card": false,
+        "enable_feedback": false,
+        "single_file_review": false,
+        "model_parameters": []
+    },
+    "icon_theme": {
+        "mode": "system",
+        "light": "Catppuccin Macchiato",
+        "dark": "Catppuccin Macchiato"
+    },
+    "scroll_beyond_last_line": "off",
+    "minimap": {
+        "show": "never",
+        "current_line_highlight": "line"
+    },
+    "scrollbar": {
+        "axes": {
+            "horizontal": false,
+            "vertical": null
+        }
+    },
+    "cursor_shape": "block",
+    "cursor_blink": true,
+    "soft_wrap": "editor_width",
+    "project_panel": {
+        "sticky_scroll": true,
+        "button": true,
+        "dock": "right",
+        "auto_fold_dirs": false
+    },
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 10
+        }
+    },
+    "base_keymap": "VSCode",
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "file_scan_exclusions": [
+        "**/.git",
+        "**/node_modules",
+        "**/vendor",
+        "**/cache",
+        "**/.cache",
+        "**/tmp",
+        "**/*.log"
+    ],
+    "ui_font_size": 16,
+    "buffer_font_family": "JetBrainsMono Nerd Font",
+    "buffer_font_size": 15.0,
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "One Dark Pro"
+    }
+}
