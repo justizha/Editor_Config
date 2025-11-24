@@ -1,2 +1,2 @@
-# VS-CODE-settings.json
-settings.json for vscode
+# Editor Configurations :
+Zed & VsCode , curently using zed as main editor.
